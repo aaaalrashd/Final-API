@@ -14,6 +14,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "REVIEWS")
 public class ReviewDocument {

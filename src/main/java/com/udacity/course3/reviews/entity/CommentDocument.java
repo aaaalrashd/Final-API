@@ -1,5 +1,7 @@
 package com.udacity.course3.reviews.entity;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import javax.persistence.Id;
 
 @Document(collection = "COMMENTS")
