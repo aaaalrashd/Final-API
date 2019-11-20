@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-
+@Document(collection = "REVIEWS")
 public class ReviewDocument {
 	
 	@Id

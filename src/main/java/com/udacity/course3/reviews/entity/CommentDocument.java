@@ -2,6 +2,7 @@ package com.udacity.course3.reviews.entity;
 
 import javax.persistence.Id;
 
+@Document(collection = "COMMENTS")
 public class CommentDocument {
 
 	@Id
